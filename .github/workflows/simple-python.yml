@@ -1,0 +1,10 @@
+name: python-deployment
+on: workflow_dispatch
+jobs:
+ python-job:
+   runs-on: ubtuntu latest
+   steps:
+    - name: print greeting
+      run: echo "hello word"
+    - name: print goodbye
+      run: echo "goodbye"
